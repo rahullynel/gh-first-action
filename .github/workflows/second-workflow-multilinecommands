@@ -1,0 +1,9 @@
+name: SecondWF
+on: workflow_dispatch
+jobs:
+  first-job:
+    steps:
+      - name: Multiline Greeting
+        run: |
+            echo "Blah Blah"
+            echo "Blah Blah Blah"
